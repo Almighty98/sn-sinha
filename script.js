@@ -64,7 +64,7 @@ discount.onfocus = function(){
                 parseFloat(((parseFloat(document.getElementById('exampleFormControlInput25').value)*parseFloat(document.getElementById('exampleFormControlInput13').value)/100)*parseFloat(document.getElementById('exampleFormControlInput14').value)+parseFloat(document.getElementById('exampleFormControlInput25').value))/parseFloat(document.getElementById('exampleFormControlInput15').value))-
                 parseFloat(document.getElementById('exampleFormControlInput40').value)-
                 parseFloat(document.getElementById('exampleFormControlInput45').value)).toFixed(2);
-    let text = `Total Amount is ${total} ₹`;
+    let text = `Total Amount is ₹ ${total}`;
     document.querySelector('.text').innerHTML = `<strong>${text}</strong>`;
 }
 
